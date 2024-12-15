@@ -46,7 +46,8 @@ namespace Friends_Web_App.Controllers
         await dbContext.Friends.AddAsync(friend);
         await dbContext.SaveChangesAsync();
 
-            return View(friend);
+            return RedirectToAction("List", "Friend");
+        
         }
 
         [HttpGet]
