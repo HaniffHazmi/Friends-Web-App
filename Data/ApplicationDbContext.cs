@@ -11,5 +11,8 @@ namespace Friends_Web_App.Data
         }
 
         public DbSet<Friend> Friends { get; set; }
+        public DbSet<Hobby> Hobby { get; set; }
+        public DbSet<Places> Places { get; set; }
+        public DbSet<Food> Food { get; set; }
     }
 }
