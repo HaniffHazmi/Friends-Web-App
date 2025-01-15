@@ -1,6 +1,7 @@
 ﻿@model List<Friends_Web_App.Models.BucketList>
 
 <h1>Bucket List</h1>
+<p>A Bucket List is a personal collection of goals, dreams, and experiences you wish to accomplish in your lifetime.  Start creating yours today and make every moment count!</p>
 
 <a asp-controller="BucketList" asp-action="Add" class="btn btn-primary">Add Bucket List Item</a>
 <br />
@@ -37,3 +38,9 @@
         }
     </tbody>
 </table>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffcc80, #ffab91); /* Orange to pink gradient */
+        color: #333;
+    }
+</style>

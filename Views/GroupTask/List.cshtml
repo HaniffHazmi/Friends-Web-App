@@ -1,6 +1,7 @@
 ﻿@model List<Friends_Web_App.Models.GroupTask>
 
 <h1>This is Group Tasks Page</h1>
+<p>This is your hub for managing and organizing tasks within your group. Start collaborating effectively today!</p>
 
 <a asp-controller="GroupTask" asp-action="Add" class="btn btn-primary">Add Task</a>
 <br />
@@ -40,3 +41,9 @@
         }
     </tbody>
 </table>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffcc80, #ffab91); /* Orange to pink gradient */
+        color: #333;
+    }
+</style>

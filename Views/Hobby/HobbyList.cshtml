@@ -1,6 +1,7 @@
 ﻿@model List<Friends_Web_App.Models.Hobby>
 
 <h1>List of Hobbies</h1>
+<p>Add your favorite hobbies, get inspired by new ideas, and make time for what you love!</p>
 
 <a asp-controller="Hobby" asp-action="Add" class="btn btn-primary">Add Hobby</a>
 <br />
@@ -37,3 +38,9 @@
         }
     </tbody>
 </table>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffcc80, #ffab91); /* Orange to pink gradient */
+        color: #333;
+    }
+</style>

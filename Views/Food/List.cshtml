@@ -1,6 +1,7 @@
 ﻿@model List<Friends_Web_App.Models.FoodViewModel>
 
 <h1>List of Food</h1>
+<p>Food is more than just sustenance—it's a universal language that brings people together. Add your favorite foods, share recipes, and celebrate the diverse flavors that make every meal special!</p>
 
 <a asp-controller="Food" asp-action="Add" class="btn btn-primary">Add Food</a>
 <br />
@@ -37,3 +38,9 @@
         }
     </tbody>
 </table>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffcc80, #ffab91); /* Orange to pink gradient */
+        color: #333;
+    }
+</style>

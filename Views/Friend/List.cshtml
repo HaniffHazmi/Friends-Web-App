@@ -1,6 +1,7 @@
 ﻿@model List<Friends_Web_App.Models.Friend>
 
-<h1>This is Friends Page</h1>
+<h1>Friends Page</h1>
+<p>Celebrate the connections that matter most to you, add new friends, and cherish the memories you share together.</p>
 
 <a asp-controller="Friend" asp-action="Add" class="btn btn-primary">Add Friend</a>
 <br />
@@ -43,3 +44,9 @@
         }
     </tbody>
 </table>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffcc80, #ffab91); /* Orange to pink gradient */
+        color: #333;
+    }
+</style>

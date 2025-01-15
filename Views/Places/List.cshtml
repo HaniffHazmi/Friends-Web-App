@@ -1,6 +1,7 @@
 ﻿@model List<Friends_Web_App.Models.Places>
 
 <h1>List of Places</h1>
+<p>Here, you can explore and manage your list of memorable destinations. Start building your list and let your next adventure begin!</p>
 
 <a asp-controller="Places" asp-action="Add" class="btn btn-primary">Add Places</a>
 <br />
@@ -34,3 +35,9 @@
         }
     </tbody>
 </table>
+<style>
+    body {
+        background: linear-gradient(90deg, #ffcc80, #ffab91); /* Orange to pink gradient */
+        color: #333;
+    }
+</style>
